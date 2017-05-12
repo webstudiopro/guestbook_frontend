@@ -1,0 +1,32 @@
+@import "../bower_components/bootstrap/scss/bootstrap.scss";
+@import "./variables.scss";
+
+#guestbook {
+  .card-guestbook {
+    background-image: url(../img/bg-guestbook.png);
+    background-repeat: repeat-y;
+    background-position: left;
+    border-bottom: 2px groove silver;
+    img{
+      margin-top: 40px;
+    }
+    .card-comment {
+      position: absolute;
+      bottom: 5px;
+      border-radius: 50px;
+      .blockquote-reverse{
+        max-height: 80px;
+        overflow-y: scroll;
+      }
+    }
+  }
+}
+
+.button-add{
+  cursor: hand !important;
+}
+
+.card-form {
+  padding: 5px !important;
+  margin-bottom: 40px;
+}
